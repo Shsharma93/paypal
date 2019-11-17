@@ -1,0 +1,20 @@
+.app {
+  text-align: center;
+  .btn {
+    width: 10rem;
+    height: 2.5rem;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+    transition: all 0.3s ease;
+    &:hover {
+      background: #fff;
+      color: #000;
+    }
+  }
+}
